@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="用互動棋盤練習騎士雙攻、絕對牽制與底線將死。">
+  <title>棋盤筆記｜西洋棋戰術練習</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/lessons.js"></script>
+  <script defer src="./assets/app.js"></script>
+</head>
+<body id="top">
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="./index.html"><span class="brand-icon" aria-hidden="true">♞</span>棋盤筆記</a>
+      <a class="top-link" href="#lessons">戰術課程 ↓</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow">西洋棋戰術練習</p>
+          <h1>下一步，<br>你會怎麼走？</h1>
+          <p class="hero-copy">每次練習一個戰術。先看懂棋局，再試著找出關鍵的一步。</p>
+          <a class="primary hero-button" href="#lessons">開始練習 <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="hero-figure">
+          <div id="hero-board"></div>
+          <figcaption>課程示例 · 騎士雙攻局面</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="wrap lesson-index" id="lessons" aria-labelledby="lesson-heading">
+      <div class="section-head">
+        <div><h2 id="lesson-heading">戰術課程</h2><p>選一個主題，試著從棋盤上找到答案。</p></div>
+        <span id="lesson-count" class="lesson-count"></span>
+      </div>
+      <div id="lesson-list" class="card-list"></div>
+      <noscript>請啟用 JavaScript 以查看課程。</noscript>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>棋盤筆記</span><a href="#top" id="back-to-top">回到頂端 ↑</a></footer>
+</body>
+</html>
